@@ -1,0 +1,196 @@
+/* 
+    Document   : placement_style
+    Created on : Apr 20, 2013, 6:32:40 PM
+    Author     : arup
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #ffffff   ;
+    margin: 0 0 0 0;
+
+}
+
+.main{
+    margin: 0 10% 0 10%;
+    background-color: #FFFFFF;
+}
+
+.header{
+   /* height: 175px;*/
+    
+}
+
+.mainbody{
+}
+.footer{
+    background-color:#CBE9EB;
+    color: black;
+    font-weight: bold;
+
+}
+
+.job_image{
+    float: right;
+}
+
+
+.style1 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style6 {color: #006666; font-weight: bold; font-size: 24px;}
+.style8 {color: #FF0000}
+.style9 {color: #000000}
+.style11 {color: #FF0000; font-weight: bold; }
+
+
+.leftlebel{
+    width:45%;
+    font-weight: bold;
+
+}
+.rightinput{
+    width: 70%;
+}
+
+.pdetail_table{
+    width:100%;  
+   
+}
+.edetail_table{
+    width:100%;
+
+}
+
+.personal_detail{
+    border-width: 1px;
+    border-color: black;
+    margin: 15px 50px 0 50px;
+}
+
+.edu_detail{
+    border-width: 1px;
+    border-color: black;
+    margin: 15px 50px 0 50px;
+}
+.star{
+    font-weight: bold;
+    color: red;
+}
+
+.logo{
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mathHide{
+    display: none;
+}
+
+.login{
+   
+    background-color:#E0E7ED;
+    height:270px;
+    float: right;
+
+}
+
+.loginlabel{
+    width: 70px;
+    float: left;
+    margin-left: 15px;
+
+}
+
+.logininput{
+    float :right;
+    margin-right: 20px;
+
+}
+.btn_submit{
+
+    margin-top: 50px;
+}
+
+.errormsg{
+    font-weight: bold;
+    color: red;
+}
+
+.cmplist{
+    height : 100px;
+    overflow: auto;
+
+}
+
+
+
+.cmplisttd{
+    /*width: 25%;*/
+
+}
+
+#admin_menu ul
+{
+
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+ul#menu li
+{
+    display:block;
+    list-style: none;
+    /*background: #e8eef4 url(images/arrow.png) 2% 50% no-repeat;*/
+    /*border: 1px solid #b2b2b2;*/
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+ul#menu li a
+{
+
+    font-weight: bold;
+    text-decoration: none;
+    color: #696969;
+}
+
+.post_job_list{
+
+    height : 200px;
+
+    overflow-x: hidden;
+}
+
+
+.stulisttd{
+    /*width: 25%;*/
+}
+
+.stulist{
+    height : 150px;
+    overflow: auto;
+
+}
+
+.notshortlisted{
+
+    height: 150px;
+    overflow: auto;
+}
